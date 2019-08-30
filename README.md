@@ -26,7 +26,7 @@
          <entry key="remote_ext_stopwords">http://IP:29888/api/dict/stop</entry>
  </properties>
 ```
-
+### 项目结构
 ``` lua
 esik
 ├── doc/es.sql  -- 数据脚本
