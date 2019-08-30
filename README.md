@@ -7,7 +7,8 @@
 
 ### API 文档地址
       URL:   /docs/index.html 
-
+### API 文档截图      
+![API](doc/api.png)
 
 ``` lua
 esik
