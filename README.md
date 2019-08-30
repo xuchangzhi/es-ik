@@ -10,6 +10,23 @@
 ### API 文档截图      
 ![API](doc/api.png)
 
+### ik 配置
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+ <properties>
+         <comment>IK Analyzer 扩展配置</comment>
+         <!--用户可以在这里配置自己的扩展字典 -->
+         <entry key="ext_dict"></entry>
+          <!--用户可以在这里配置自己的扩展停止词字典-->
+         <entry key="ext_stopwords"></entry>
+         <!--用户可以在这里配置远程扩展字典 -->
+         <entry key="remote_ext_dict">http://IP:29888/api/dict/ext</entry>
+         <!--用户可以在这里配置远程扩展停止词字典-->
+         <entry key="remote_ext_stopwords">http://IP:29888/api/dict/stop</entry>
+ </properties>
+```
+
 ``` lua
 esik
 ├── doc/es.sql  -- 数据脚本
@@ -18,6 +35,9 @@ esik
 └── com.gl.es -- 接口API
 
 ```     
+ 
+ 
+
  
 ### 技术选型
  
