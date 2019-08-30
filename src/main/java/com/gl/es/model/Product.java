@@ -7,7 +7,7 @@ import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
 @Data
-@Document(indexName = "book",type = "book" , shards = 1, replicas = 0,  refreshInterval = "-1",indexStoreType = "niofs")
+@Document(indexName = "books",type = "book" , shards = 1, replicas = 0,  refreshInterval = "-1",indexStoreType = "niofs")
 public class Product {
     @Id
     private String id;
