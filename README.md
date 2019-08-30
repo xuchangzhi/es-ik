@@ -5,15 +5,20 @@
 ### 停词库
      URL:   /api/dict/stop
 
+### API 文档地址
+      URL:   /docs/index.html 
+
+
 ``` lua
 esik
 ├── doc/es.sql  -- 数据脚本
 ├── com.gl.mbg -- MyBatisGenerator生成的数据库操作代码
 ├── com.gl.common --  公用代码
 └── com.gl.es -- 接口API
-     
+
+```     
  
- ### 技术选型
+### 技术选型
  
  
  技术 | 说明 | 官网
@@ -30,7 +35,7 @@ esik
  Lombok | 简化对象封装工具 | [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 
  
- ### 开发工具
+###  开发工具
  
  工具 | 说明 | 官网
  ----|----|----
@@ -41,7 +46,7 @@ esik
  Navicat | 数据库连接工具 | http://www.formysql.com/xiazai.html
  PowerDesigner | 数据库设计工具 | http://powerdesigner.de/
  
- ### 开发环境
+### 开发环境
  
  工具 | 版本号 | 下载
  ----|----|----
@@ -50,7 +55,6 @@ esik
  Redis | 3.2 | https://redis.io/download
  Elasticsearch | 6.2.2 | https://www.elastic.co/downloads
  nginx | 1.10 | http://nginx.org/en/download.html
- 
  
  ## 参考资料
  
